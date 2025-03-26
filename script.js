@@ -53,7 +53,7 @@ const secondBurger2 = structuredClone(hamburger2);
 const thirdBurger = structuredClone(hamburger2);
 
 // Quanti oggetti sono stati creati in memoria durante l'esecuzione di questo codice? 
-- 3 oggetti con stessi valori di hamburger2
+- 9 oggetti con stessi valori di hamburger2
 
 // 🏆 Code Question 4
 
@@ -108,7 +108,7 @@ console.log(hamburger3.maker.name); //
   console.log(secondBurger3.maker.name); // 
 - Chef Hyur
 console.log(hamburger3.maker.restaurant.name); // 
-- Hyur's Burgers, perchè maker.restaurant non viene modificato
+- Hyur's II
 console.log(secondBurger3.maker.restaurant.name); // 
 - Hyur's II
 
@@ -143,7 +143,7 @@ const chef = {
   // Qual è il metodo migliore per clonare l’oggetto chef, e perché?
   - Spread Operator, perchè ci sono delle funzioni che vanno copiate come metodi all'interno della proprietà oggetto
 
-// 🎯 Snack  (Bonus)
+// 🎯 Snack 7 (Bonus)
 // Crea una funzione che permette la copia profonda (deep copy) di un oggetto, che copia anche i suoi metodi (proprietà che contengono funzioni). Usa l’oggetto di Code Question 6 come test.
 
 
